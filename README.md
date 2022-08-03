@@ -1,3 +1,4 @@
 # AnimalRun
 ## Test
-![mvc png](https://user-images.githubusercontent.com/67076014/182691497-66621d2b-9462-43f9-aa62-b0c2c5a91368.png)
+![mvc](https://user-images.githubusercontent.com/67076014/182691878-1b40eb67-800a-4a30-ac28-1b5ce468476c.png)
+
