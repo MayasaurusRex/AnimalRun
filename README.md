@@ -1,3 +1,3 @@
 # AnimalRun
 ## Test
-![alt text]([http://url/to/img.png](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a0/MVC-Process.svg/1200px-MVC-Process.svg.png))
+![mvc png](https://user-images.githubusercontent.com/67076014/182691497-66621d2b-9462-43f9-aa62-b0c2c5a91368.png)
