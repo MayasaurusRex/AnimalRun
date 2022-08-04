@@ -1,4 +1,7 @@
 # AnimalRun iOS App
+## Demo
+A live demo of my app can be found here: \
+https://youtu.be/BxetgsCngKk
 
 ## Motivations
 My goal was to use this project as a way to learn more about iOS app design, specifically multi-page apps, using a software architecure format called Model-View-Controller (MVC).
