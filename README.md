@@ -19,6 +19,27 @@ My software files, shown above, provide a little more insight into the actual im
 \
 I thought this was interesting because before my research into the implementation MVC, I thought MVC would include more files specific to the Model and Control functions as well, rather than just implementing the logic within the view files. I would say this is the area of the project that I learned the most!
 
+## The Game
+The game begins with the start screen, shown below: \
+<img width="424" alt="Screen Shot 2022-08-03 at 3 27 57 PM" src="https://user-images.githubusercontent.com/67076014/182908554-e0c4446e-150a-46c8-9f34-0327fc978b1f.png"> \
+\
+The user can select to play the game or view the leaderboard. \
+\
+If the user selects to play the game, they will see this game screen: \
+<img width="417" alt="Screen Shot 2022-08-03 at 3 28 13 PM" src="https://user-images.githubusercontent.com/67076014/182908984-c00c51c0-000f-4e6c-8143-76bdc4dd6829.png"> \
+The user is a sheep and must tap the screen to jump over the hills. If the user fails to jump, the hills will push the sheep off the screen. If the user jumps too high, the sheep will leave the screen. The goal of the game is to stay on the screen for as long as possible. \
+\
+If the user loses, they will reach the user information screen: \
+<img width="408" alt="Screen Shot 2022-08-03 at 3 28 26 PM" src="https://user-images.githubusercontent.com/67076014/182909386-3f7db402-7d37-4435-b004-6461d40af33b.png"> \
+\
+Here, the user can enter their name to join the leaderboard. They have the choice to play the game again, return to the start screen or check out the leaderboard. \
+\
+If they choose to go to the leaderboard, they will see this screen: \
+<img width="410" alt="Screen Shot 2022-08-03 at 3 28 43 PM" src="https://user-images.githubusercontent.com/67076014/182909820-b749b8d7-ab93-447c-a338-6e7a35f2c7b1.png"> \
+The leaderboard uses persistant data to store the top three players. From here, the user can navigate back to the start.
+
+
+
 ## Testing Results
 | Test Case                          | Result      |
 | :---:                              |    :----:   |     
