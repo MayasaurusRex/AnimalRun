@@ -4,17 +4,14 @@ import GameplayKit
 
 
 class GameScene: SKScene, UITextFieldDelegate{
-    //adds the rainbow from the image
-    let clouds = SKSpriteNode(imageNamed: "clouds")
-    let animal: String = ""
-    let randVal = Int.random(in: 1..<4)
-    let player = SKSpriteNode(imageNamed:"sheep.png") //defines a player character
-    var obstacles = [SKShapeNode]()
-    //velocity of the obstacles
-    var obstacleVelocity:CGFloat = 50.0
-    var dt:CGFloat = 0.0
-    var lastUpdateTime:CGFloat = 0.0
-    var playerHasFallen = false
+    
+    let clouds = SKSpriteNode(imageNamed: "clouds") // initializes the rainbow from the image
+    let player = SKSpriteNode(imageNamed:"sheep.png") // defines a player character (sheep)
+    var obstacles = [SKShapeNode]() // initializes the "hills"
+    var obstacleVelocity:CGFloat = 50.0 // initializes velocity of the obstacles
+    var dt:CGFloat = 0.0 // initializes change in time of the game
+    var lastUpdateTime:CGFloat = 0.0 // initializes value of time since last update
+    var playerHasFallen = false // variable to track if the
     var sc = SKLabelNode(fontNamed: "Verdana")
     var c = 0;
     var begin  = SKLabelNode(text: "Click anywhere to begin")
@@ -229,9 +226,6 @@ class GameScene: SKScene, UITextFieldDelegate{
     
     
     func textFieldShouldReturn(_ textField: UITextField) -> Bool{
-        print("reached")
-        print(c)
-        print(textField.text!)
         scoreTable.addEntry(name: textField.text!, score: c)
         TextInput?.isHidden = true
         return true
